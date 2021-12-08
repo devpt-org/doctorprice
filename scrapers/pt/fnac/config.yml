@@ -1,0 +1,11 @@
+parsers:
+  product:
+    filename: product/product.py
+    docker:
+      image: python3
+    timeout: 5000
+  catalog:
+    filename: catalog/main.go
+    docker:
+      image: golang
+    timeout: 5000
