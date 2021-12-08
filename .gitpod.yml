@@ -1,0 +1,12 @@
+
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3306
+    onOpen: ignore
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
