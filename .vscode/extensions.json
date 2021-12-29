@@ -3,6 +3,7 @@
         "github.copilot-nightly",
         "ms-azuretools.vscode-docker",
         "ms-vscode.vscode-typescript-next",
-        "rbbit.typescript-hero"
+        "rbbit.typescript-hero",
+        "github.copilot"
     ]
 }
